@@ -6,8 +6,20 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "Status",
 			"id": "2faed31e-95b0-4b5c-8e84-3a2700c996ba",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Books",
+			"id": "7c12b45c-b4fa-4386-b850-c78cb3b8ca65",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
